@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 960px;
+    /* margin-left: 160px; */
+}
+
+.header-index {
+    background-color: #333;
+}
+
+
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(74, 170, 165);
+}
+
+
+
+body {
+    background-image: url("images/grey-terrazzo.png");
+    background-repeat: repeat;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header-index ul h2.myname {
+    float: left;
+    color: white;
+    background-color: rgb(74, 170, 165);
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+
+}
+
+.container-portfolio {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+    height: 1150px;
+}
+
+.container-contact {
+    width: 960px;
+    background-color: white;
+    margin: auto;
+
+}
+
+hr {
+    margin-right: 40px;
+}
+
+.content-index,
+.content-portfolio,
+.content-contact {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+
+
+}
+
+.container-heading {
+    color: rgb(74, 170, 165);
+}
+
+.myimage {
+    height: 200;
+    width: 100;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    float: left;
+}
+
+.aboutmepara {
+    line-height: 30px;
+    padding-right: 20px;
+
+}
+
+.wrapper {
+    min-height: 100%;
+
+}
+
+.images {
+    margin: 20px;
+    float: left;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(74, 170, 165);
+    color: #f1f1f1;
+    width: 260px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(74, 170, 165);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.content-contact {
+    border-radius: 5px;
+    padding-right: 30px;
+}
+
+form {
+    padding-top: 20px;
+}
+
+label {
+    color: #777777;
+}
+
+#index-foot {
+    height: 50px;
+    background-color: #333;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+#index-foot p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+
+    }
+
+    .header-index ul h2.myname {
+        display: block;
+        float: none;
+        background-color: rgb(74, 170, 165);
+        margin: 0;
+        text-align: center;
+    }
+
+    li a {
+        display: block;
+        float: left;
+        background-color: #333;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .container {
+        max-width: 640px;
+        background-color: white;
+        margin: auto;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+
+    }
+
+    .header-index ul h2.myname {
+        display: block;
+        float: none;
+        background-color: rgb(74, 170, 165);
+        margin: 0;
+        text-align: center;
+    }
+
+    li a {
+        display: block;
+        float: left;
+        background-color: #333;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .container {
+        max-width: 768px;
+        background-color: white;
+        margin: auto;
+
+    }
+
+}
